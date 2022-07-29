@@ -1,0 +1,12 @@
+apiVersion: backstage.io/v1alpha1
+kind: Location
+metadata:
+  name: all-counter
+  description: A collection of all Backstage Inventory example entities, except users, groups, and templates
+spec:
+  targets:
+    - ./inventory-app/catalog-info.yaml
+    - ./inventory-app/service/catalog-info.yaml
+    - ./inventory-app/service/api/catalog-info.yaml
+    - ./inventory-app/service/lib/catalog-info.yaml
+    - ./inventory-app/service/db/catalog-info.yaml
