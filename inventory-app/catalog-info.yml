@@ -1,0 +1,8 @@
+
+apiVersion: backstage.io/v1alpha1
+kind: System
+metadata:
+  name: inventory-app
+  description: Inventory Application for managing inventory
+spec:
+  owner: group:guests

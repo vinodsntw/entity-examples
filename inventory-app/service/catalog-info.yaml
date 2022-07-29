@@ -1,0 +1,15 @@
+
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: inventory-service
+  description: A simple inventory service
+  tags:
+    - kotlin
+spec:
+  type: service
+  lifecycle: experimental
+  owner: group:guests
+  system: inventory-app
+  providesApis: 
+    - api:inventory-api

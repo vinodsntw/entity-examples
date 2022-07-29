@@ -1,0 +1,13 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: inventory-cost-library
+  description: Library for calculating inventory costs
+  tags:
+    - kotlin
+spec:
+  type: service
+  lifecycle: experimental
+  owner: group:guests
+  system: inventory-app
+  subcomponentOf: inventory-service
